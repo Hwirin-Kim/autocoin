@@ -1,0 +1,68 @@
+# Node.js 관련
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 환경설정 파일
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# 디버그 및 로그 파일
+logs/
+*.log
+*.gz
+*.out
+
+# OS/IDE 관련
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# 빌드 출력물
+dist/
+build/
+out/
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# 패키지 관리
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 이미지 캐시
+*.cache
+
+# Python 관련 (필요 시)
+__pycache__/
+*.py[cod]
+venv/
+*.egg-info/
+.eggs/
+
+# Java 관련 (필요 시)
+*.class
+*.jar
+*.war
+*.ear
+target/
+
+# Logs & Reports (Cypress/Testing)
+cypress/screenshots/
+cypress/videos/
+test-output/
+
+# 기타
+*.bak
+*.tmp
+*.temp

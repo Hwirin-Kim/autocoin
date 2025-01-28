@@ -1,0 +1,19 @@
+{
+  "name": "auto_coin_backend",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "scripts": {
+    "compile": "tsc && node ./build/src/app.js",
+    "start": "nodemon -e ts --exec \"npm run compile\"",
+    "dev": "nodemon"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "4.17.17",
+    "@types/node": "^22.10.10",
+    "express": "4.21.2",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
